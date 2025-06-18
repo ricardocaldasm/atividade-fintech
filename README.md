@@ -1,2 +1,5 @@
 # atividade-fintech
-FIAP Atividade Fase 4 Cap 9
+Faculdade FIAP
+Aluno: Ricardo Caldas de Mello - rm565682
+Turma: 1TDSOE-2025
+Atividade Individual Fase 4 - Capítulo 9: Muito estilo sem sofrimento
