@@ -7,10 +7,19 @@
   <title>Prospera - Transforme sua relação com o dinheiro</title>
 
   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
   <!-- Project CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -18,10 +27,10 @@
 <body>
   <!-- Header -->
 
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="https://via.placeholder.com/40x40" alt="Logo Prospera" class="me-2">
+        <img id="logo" src="assets/images/logo-prospera.png" alt="Logo Prospera" class="me-2">
         <strong>Prospera</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -38,9 +47,9 @@
   </nav>
 
   <!-- Seção Home -->
-  <section id="home" class="hero d-flex align-items-center">
+  <section id="home" class="d-flex align-items-center">
     <div class="container text-center">
-      <h1 class="display-4">Controle suas finanças com inteligência</h1>
+      <h2 class="display-4 fw-bold">Transforme sua relação com o dinheiro</h2>
       <p class="lead">Receitas, gastos, dívidas, investimentos e metas em um só lugar. Com a Prospera, você tem o
         controle total da sua vida financeira.</p>
       <a href="#planos" class="btn btn-primary btn-lg mt-3">Conheça nossos planos</a>
@@ -50,21 +59,21 @@
   <!-- Seção Sobre Nós -->
   <section id="sobre" class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-center mb-5">Sobre Nós</h2>
-      <div class="row g-4">
+      <h2 class="text-center mb-5">Gerencie suas finanças com a melhor plataforma do mercado</h2>
+      <div class="row g-4 text-center">
         <div class="col-md-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">Planejamento de Metas</h5>
-              <p class="card-text">Ajude sua vida financeira a prosperar com metas personalizadas e acompanhamento do
-                seu progresso.</p>
+              <p class="card-text">Crie metas personalizadas que estão de acordo com a sua realidade e acompanhe seus
+                investimentos.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h5 class="card-title">Gestão Completa</h5>
+              <h5 class="card-title">Gestão Financeira</h5>
               <p class="card-text">Controle receitas, despesas, dívidas e investimentos em um só lugar, de forma simples
                 e eficiente.</p>
             </div>
@@ -73,8 +82,8 @@
         <div class="col-md-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
-              <h5 class="card-title">Conforto e Qualidade de Vida</h5>
-              <p class="card-text">Com organização financeira, você ganha tranquilidade e melhora sua qualidade de vida.
+              <h5 class="card-title">Tranquilidade para o Futuro</h5>
+              <p class="card-text">Com organização financeira, você pode criar planos e realizar sonhos antigos.
               </p>
             </div>
           </div>
@@ -88,6 +97,7 @@
     <div class="container">
       <h2 class="text-center mb-5">Nossos Planos</h2>
       <div class="row text-center">
+
         <div class="col-md-4">
           <div class="card border-0 shadow-sm">
             <div class="card-body">
@@ -95,32 +105,34 @@
               <p class="price">R$ 19,90/mês</p>
               <ul class="list-unstyled">
                 <li>Controle de receitas e despesas</li>
-                <li>Gráficos simples</li>
+                <li>Gráficos simplificados</li>
                 <li>Suporte via e-mail</li>
               </ul>
               <a href="#" class="btn btn-outline-primary mt-3">Assinar</a>
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
-          <div class="card border-primary shadow plan-destaque">
+          <div class="card border-primary shadow plano-destaque">
             <div class="card-body">
               <h5 class="card-title">Essencial</h5>
               <p class="price">R$ 39,90/mês</p>
               <ul class="list-unstyled">
                 <li>Inclui recursos do plano Básico</li>
                 <li>Gestão de dívidas e metas</li>
-                <li>Exportação de relatórios</li>
+                <li>Gráficos completos de investimento</li>
               </ul>
               <a href="#" class="btn btn-primary mt-3">Assinar</a>
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="card border-0 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">Premium</h5>
-              <p class="price">R$ 69,90/mês</p>
+              <p class="price">R$ 99,90/mês</p>
               <ul class="list-unstyled">
                 <li>Tudo do plano Essencial</li>
                 <li>Consultoria financeira personalizada</li>
@@ -137,10 +149,9 @@
   <!-- Seção Footer -->
   <footer class="footer bg-light py-4 text-center">
     <div class="container">
-      <p class="mb-2">Siga a Prospera nas redes sociais:</p>
-      <a href="#" class="me-3">Instagram</a>
-      <a href="#" class="me-3">LinkedIn</a>
-      <a href="#">Twitter</a>
+      <a href="#" class="mx-3"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="mx-3"><i class="bi bi-linkedin"></i></a>
+      <a href="#" class="mx-3"><i class="bi bi-twitter-x"></i></a>
     </div>
   </footer>
 
